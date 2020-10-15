@@ -1,0 +1,61 @@
+<!DOTYPE html>
+<html lang="en"
+<head>
+ <meta charset="UTF-8"/>
+ <meta name="viewport"content="width=device-width, initial-scale=1.0"/>
+ <title>latihan membuat tabel</title>
+ <style>
+ body{
+    background-color: rgb(196, 139, 54);
+  }
+</style>
+ </head>
+ <body>
+     <!-- latihan membuat tabel simple -->
+     <h1>latihan membuat tabel simple</h1>
+     <table border="2" cellpaddig="3" cellspasing="5">
+         <thead>
+         <tr>
+             <th></th>
+             <th>kolom 1</th>
+             <th>kolom 2</th>
+         </tr>
+         </thead>
+         <tbody>
+            <tr>
+                <th rowspan="2">baris 1</th>
+                <td>baris 1, kolom 1</td>
+                <td>baris 1, kolom 2</td>
+            </tr>
+            <tr>
+                <!-- <th>baris 2</th> -->
+                <td>baris 2, kolom 1</td>
+                <td>baris 2, kolom 2</td>
+            </tr>
+         </tbody>
+    </table>
+    <!-- latihan tabel komplek -->
+    <h1>latihan membuat tabel komplek</h1>
+    <table border="2" cellpaddig="3" cellspasing="5">
+        <thead>
+        <tr>
+            <th></th>
+            <th colspan="2">kolom 1</th>
+            <!-- <th>kolom 2</th> -->
+        </tr>
+        </thead>
+        <tbody>
+           <tr>
+               <th rowspan="2">baris 1</th>
+               <td>baris 1, kolom 1</td>
+               <td>baris 1, kolom 2</td>
+           </tr>
+           <tr>
+               <!-- <th>baris 2</th> -->
+               <td>baris 2, kolom 1</td>
+               <td>baris 2, kolom 2</td>
+           </tr>
+        </tbody>
+   </table>
+  </body>
+  </html>
